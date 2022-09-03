@@ -1,0 +1,76 @@
+body {
+  background-image: url("bg.jpg");
+  background-attachment: fixed;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.app {
+
+  min-height: 80vh;
+  width: 400px;
+  margin: 150px auto;
+}
+
+.crossed {
+    text-decoration: line-through 2px red;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #3F1554;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 2px 8px 6px #ffff,
+                 0px -5px 35px #ffff;
+
+}
+
+h1, button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.add {
+  background: #DEAA24;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  color: #ffff;
+  margin: auto;
+}
+
+.delete {
+  background: #9718C6;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: none;
+  width: 70%;
+  color: white;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+}
+
+
+
+input {
+  flex: 1;
+  padding: 8px;
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #9954AA;
+  border-radius: 10px;
+}
+
+img {
+  border-radius: 40%;
+}
